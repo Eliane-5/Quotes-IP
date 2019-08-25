@@ -8,9 +8,9 @@ import { Quote } from '../quote';
 })
 export class QuoteDisplayComponent implements OnInit {
   quotes:Quote[] = [
-    new Quote (1, 'Eliane','Eli','Watch finding Nemo',new Date(2019,10,21)),
-    new Quote (2, 'Eliane','Eli','Watch finding Nemo',new Date(2019,7,22)),
-    new Quote (3, 'Eliane','Eli','Watch finding Nemo',new Date(2019,7,23)),
+    new Quote (1, 'Eliane','Eli','For every dark night there is a brighter day!',new Date(2019,10,21)),
+    new Quote (2, 'Naice','Nais','The most important thing is to enjoy life,.. to be  happy!',new Date(2019,7,22)),
+    new Quote (3, 'Julia','JU','Food is bae for life!',new Date(2019,7,23)),
   ];
   toggleDetails(index){
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
