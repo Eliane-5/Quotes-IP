@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <p>
-    Author: {{quote.author}}
+    Author: {{quote?.author}}
 </p>
-<p>This was posted {{quote.completeDate|dateCount}} days ago</p>
+<p>This was posted {{quote?.completeDate|dateCount}} days ago</p>
 <p>
     <button (click)="upVote()"><i class="fa fa-thumbs-up" style="font-size:24px">{{likes}}</i></button>
     <button (click)="downVote()"><i class="fa fa-thumbs-down" style="font-size:24px">{{dislikes}}</i></button>
